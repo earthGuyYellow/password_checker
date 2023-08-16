@@ -32,7 +32,7 @@ def get_pass_leak_count(hashes, hashes_to_check):
 
 """ The next function takes in a password as parameter, then uses the sha1 encyrption method to safely secure the inputed string, 
 and the hexidigest module to aid in alphanumerical enycrption. We then want to create another level of privacy by only displaying the first
-five digits of encyrpted password. We take that and the sunsequent rest of the password and put those into the first five and tail variables.
+five digits of encyrpted password. We take that and the subsequent rest of the password and put those into the first five and tail variables.
 It is then necessary to send the first 5 digits to the request api function which returns a response object that is encapsulated in a variable. 
 Finally the response object and tail hashtable value is sent to the counting function which counts any matches and then returns that count by 
 incrimenting over two variables simultaneously one for comparison and one for measurement. 
